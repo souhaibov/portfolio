@@ -1,0 +1,55 @@
+.about_me{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 10em 2em 10em;
+}
+
+.my_picture{
+width: 40%;
+height: 100vh;
+border-style: dashed;
+}
+
+.my_picture img{
+   position: static;
+    margin: 2em 12% 0 0;
+    width: 75%;
+    height: 65%;
+    opacity: 90%;
+    border-radius: 15%;
+    /* border-style: dashed; */
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+.my_description{
+    padding: 2em 2em;
+
+    width: 60%;
+    border-style: double;
+}
+
+h1{
+    font-size: 46px;
+    color: rgb(45, 30, 120);
+    text-align: center;
+    text-shadow: 1px 1px #e1a026;
+}
+h3{
+    font-size: 26px;
+    color: rgb(45, 30, 120);
+    text-align: center;
+}
+.my_description p{
+    font-size: 19px;
+    text-align: justify;
+    line-height: 27px;
+    color: rgb(45, 30, 120);
+
+}
+.my_description img{
+    opacity: 80%;
+    width: 50%;
+    height: 35%;
+}

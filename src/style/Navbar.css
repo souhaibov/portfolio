@@ -1,0 +1,39 @@
+.navbar{  
+
+position: sticky;
+top: 0;
+background: rgb(230,165,75);
+height: 70px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.souhaib{
+    font-size: 18px;
+    margin: 27px 0 25px 100px;
+}
+.navbar ul {
+
+    float: right;
+    margin-right: 60px;
+    padding-right: 100px;
+  }
+  
+.navbar ul li {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    
+    
+  }
+  
+.navbar ul li a {
+    /* font-family: monospace; */
+    font-weight: bold;
+    /* font-weight: 500; */
+    /* padding: 0 3px; */
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #4653bb;
+  }

@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    /* margin: 0vh 10vh 0vh 10vh; */
+  
+    background-color:rgb(75,140,230);
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(24, 86, 173);
+  
+    -webkit-font-smoothing: antialiased;
+  }

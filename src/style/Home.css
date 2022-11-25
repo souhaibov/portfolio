@@ -1,0 +1,92 @@
+.home{
+    display: flex;
+    justify-content: flex-start;
+}
+.left{
+    /* border-style: dashed; */
+    width: 10%;
+    height: 100vh;
+    
+}
+.left ul li {
+width: 25px;
+margin: 20px 50px 20px 60px;
+
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+    /* border-style: dashed; */
+    width: 90%;
+}
+
+.description{
+    /* border-style: double; */
+    padding: 20px;
+    line-height: 35px;
+    width: 70%;
+    height: 100%;
+    color: rgb(45, 30, 120);
+}
+.picture{
+    width: 50%;
+}
+.picture img{
+    margin-left: 100px;
+    padding-top: 60px;
+    width: 20vw;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+h1{
+    font-size: 46px;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: radial-gradient(orange, LightSkyBlue);
+    width: 150px;
+    height: 60px;
+    color: rgb(5, 44, 78);
+    border-radius: 30%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+
+.download{
+    border-style: dotted;
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.download .button_css{
+    border-style:dashed ;
+    margin: 70px 20px;
+   
+    display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.download img{
+    margin: 20px;
+}
