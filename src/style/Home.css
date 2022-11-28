@@ -1,4 +1,4 @@
-.home{
+#home{
     display: flex;
     justify-content: flex-start;
 }
@@ -44,6 +44,7 @@ margin: 20px 50px 20px 60px;
     -o-border-radius: 50%;
 }
 h1{
+    text-align: left;
     font-size: 46px;
 }
 h2{
@@ -68,25 +69,3 @@ button{
     -o-border-radius: 30%;
 }
 
-.download{
-    border-style: dotted;
-    display: flex;
-    justify-content: space-around;
-  
-    
-}
-.download .button_css{
-    border-style:dashed ;
-    margin: 70px 20px;
-   
-    display: flex;
-  flex-direction: column;
-}
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-.download img{
-    margin: 20px;
-}

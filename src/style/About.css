@@ -7,13 +7,13 @@
 .my_picture{
 width: 40%;
 height: 100vh;
-border-style: dashed;
+/* border-style: dashed; */
 }
 
 .my_picture img{
-   position: static;
+ 
     margin: 2em 12% 0 0;
-    width: 75%;
+    width: 80%;
     height: 65%;
     opacity: 90%;
     border-radius: 15%;
@@ -27,16 +27,16 @@ border-style: dashed;
     padding: 2em 2em;
 
     width: 60%;
-    border-style: double;
+    /* border-style: double; */
 }
 
-h1{
+#about h1{
     font-size: 46px;
     color: rgb(45, 30, 120);
     text-align: center;
     text-shadow: 1px 1px #e1a026;
 }
-h3{
+#about h3{
     font-size: 26px;
     color: rgb(45, 30, 120);
     text-align: center;
@@ -53,3 +53,29 @@ h3{
     width: 50%;
     height: 35%;
 }
+
+.download{
+    /* border-style: dotted; */
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.download .button_css{
+    /* border-style:dashed ; */
+    margin: 70px 20px;
+   
+    display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.download img{
+    margin: 20px;
+}
+
+
+

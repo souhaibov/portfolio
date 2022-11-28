@@ -1,0 +1,51 @@
+#skills{
+    /* border-style: dashed; */
+    width: 80%;
+    height: 100%;
+    margin: 20px 9%;
+    padding: 1em;
+    text-align: center;
+}
+
+
+#skills h1{
+    font-size: 46px;
+    color: rgb(45, 30, 120);
+    text-align: center;
+    text-shadow: 1px 1px #e1a026;
+}
+
+.skills{
+    /*border-style: dotted;
+    */width: 300px;
+    margin: 20px 25px;
+    padding: 5px;
+    background: linear-gradient(orange, LightSkyBlue);
+    display: flex;
+    justify-content: stretch;
+    border-radius:20% ;
+    -webkit-border-radius:20% ;
+    -moz-border-radius:20% ;
+    -ms-border-radius:20% ;
+    -o-border-radius:20% ;
+}
+.skills_tech{
+    /* border-style: dashed; */
+    display:flex ;
+    flex-wrap : wrap;
+   text-align: left;
+   padding: 5%;
+}
+h2{
+    /* border-style: double; */
+   padding: 2%;
+   font-size: 24px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 27px;
+    color: rgb(45, 30, 120);
+
+}

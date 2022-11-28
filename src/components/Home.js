@@ -3,7 +3,7 @@ import "../style/Home.css"
 
 const Home = () => {
   return (
-    <div className='home'>
+    <section id="home">
         <div className='left'>
          <ul> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <li>
@@ -26,7 +26,7 @@ const Home = () => {
           <div className='description'>
             <h1>Souhaib Salem</h1>
             <br/>
-            <h2>Full stack web developer (MERN Stack)</h2>
+            <h2>~ Full stack web developer (MERN Stack) ~</h2>
             <br/>
             <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to : Program a browser (like using JavaScript,React js , jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node(express))</p>
             <br/>
@@ -36,7 +36,7 @@ const Home = () => {
             <img src='me1.jpg' alt='this_is_my_picture' />
           </div>
         </div>
-    </div>
+    </section>
   )
 }
 

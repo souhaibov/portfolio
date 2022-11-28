@@ -3,13 +3,14 @@ import "../style/About.css"
 
 const About = () => {
   return (
-    <div>
+    <section id="about">
+   
         <h1>About me</h1>
         {/* <h3>Maîtrise en Informatique (BAC+4)</h3> */}
         <br/>
         <div className='about_me'>
            <div className='my_picture'>
-          <img src="me.jpg" alt='there is my_photo'/>
+          <img src="me.jpg" alt='welcome'/>
            </div>
 
            <div className='my_description'>
@@ -36,7 +37,8 @@ const About = () => {
       </div>
            </div>
         </div>
-    </div>
+   
+    </section>
   )
 }
 
