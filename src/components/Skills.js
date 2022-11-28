@@ -9,7 +9,7 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon style={{width:"50px",color:"RoyalBlue4"}}/>
-         <br/><br/><br/>
+         <br/>
           <h1 >
             Skills & Technologies
           </h1>

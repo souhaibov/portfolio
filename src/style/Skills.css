@@ -12,12 +12,13 @@
     font-size: 46px;
     color: rgb(45, 30, 120);
     text-align: center;
-    text-shadow: 1px 1px #e1a026;
+    /* text-shadow: 1px 1px #e1a026; */
 }
 
 .skills{
-    /*border-style: dotted;
-    */width: 300px;
+    /* border-style: dotted; */
+    width: 300px;
+    height: 45px;
     margin: 20px 25px;
     padding: 5px;
     background: linear-gradient(orange, LightSkyBlue);
@@ -39,13 +40,21 @@
 h2{
     /* border-style: double; */
    padding: 2%;
-   font-size: 24px;
+   font-size: 20px;
 }
 
 p{
-    font-size: 20px;
-    text-align: justify;
-    line-height: 27px;
-    color: rgb(45, 30, 120);
-
+ font-size: 20px;
+ text-align: justify;
+ padding: 20px 20px;
+ line-height: 27px;
+ color: rgb(45, 30, 120);
+ box-shadow: 0px 0px 5px 4px rgba(214,196,130,0.6);
+ -webkit-box-shadow: 0px 0px 7px 1px rgba(214,196,130,0.6);
+ -moz-box-shadow: 0px 0px 5px 4px rgba(214,196,130,0.6);
+ border-radius: 5%;
+ -webkit-border-radius: 5%;
+ -moz-border-radius: 5%;
+ -ms-border-radius: 5%;
+ -o-border-radius: 5%;
 }

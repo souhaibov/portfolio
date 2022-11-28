@@ -34,7 +34,7 @@ height: 100vh;
     font-size: 46px;
     color: rgb(45, 30, 120);
     text-align: center;
-    text-shadow: 1px 1px #e1a026;
+    /* text-shadow: 1px 1px #e1a026; */
 }
 #about h3{
     font-size: 26px;
