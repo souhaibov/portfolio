@@ -20,19 +20,36 @@ const ContactUs = () => {
           ></iframe>
           <div className="rectangles">
 <div className="rectangle">
+ 
+<img src="mail.png" alt="mail" />
+<h3>Email</h3>
+<h4>souhaib.salem82@gmail.com</h4>
+<br/>
+<h4 style={{cursor:"pointer"}} onClick={() => window.location = 'mailto:yourmail@domain.com'}>Write me →</h4>
 
 </div>
 <div className="rectangle">
+<img  src="whatsapp1.png" alt="whatsapp" />
+<h3>WhatsApp</h3>
+<h4>+216 55 547 212</h4>
+<br/>
+<a href="https://api.whatsapp.com/send?phone=+21628420108&text=Hello,%20more%20information!"><h4 style={{cursor:"pointer"}}>Write me →</h4></a>
   
 </div>
 <div className="rectangle">
+  <img src="messenger.png" alt="messenger" />
+  <h3>Messenger</h3>
+  <h4>souhaib salem</h4>
+  <br/>
+  <a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100004318984852"><h4 style={{cursor:"pointer"}}>Write me →</h4></a>
   
 </div>
           </div>
         </div>
         <div className="formulaire">
-          <h1>Hire me</h1>
-          <br />
+        <br />
+          <h2>Hire me</h2>
+          
           <br />
           <input placeholder="Name *" />
           <br />
@@ -47,7 +64,7 @@ const ContactUs = () => {
           <input style={{ height: "150px" }} placeholder="Message *" />
           <br />
           <br />
-          <br />
+          
           <button className="submit">Submit</button>
         </div>
       </div>

@@ -16,10 +16,10 @@
 }
 
 .skills{
-    /* border-style: dotted; */
+    border-style: dotted;
     width: 300px;
     height: 45px;
-    margin: 20px 25px;
+    margin: 8px 25px;
     padding: 5px;
     background: linear-gradient(orange, LightSkyBlue);
     display: flex;

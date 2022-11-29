@@ -1,0 +1,8 @@
+.footer{
+    margin: 40px auto 10px auto;
+    text-align: center;
+}
+.footer svg{
+    width: 30px;
+    margin: auto 10px;
+}
