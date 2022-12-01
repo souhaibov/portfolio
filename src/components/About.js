@@ -10,7 +10,9 @@ const About = () => {
         <br/>
         <div className='about_me'>
            <div className='my_picture'>
+            <div className='pic'>
           <img src="me.jpg" alt='welcome'/>
+           </div>
            </div>
 
            <div className='my_description'>

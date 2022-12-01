@@ -9,14 +9,14 @@
 
 
 #skills h1{
-    font-size: 46px;
-    color: rgb(45, 30, 120);
+    font-size: 36px;
+    color: rgb(25, 25, 85);
     text-align: center;
     /* text-shadow: 1px 1px #e1a026; */
 }
 
 .skills{
-    border-style: dotted;
+    /* border-style: dotted; */
     width: 300px;
     height: 45px;
     margin: 8px 25px;

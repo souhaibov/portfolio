@@ -30,7 +30,7 @@ const Home = () => {
             <br/>
             <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to : Program a browser (like using JavaScript,React js , jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node(express))</p>
             <br/>
-            <button>say hello</button>
+            <a href='#contact-form'><button>𝐬𝐚𝐲 𝐡𝐞𝐥𝐥𝐨  ⇓</button></a>
           </div>
           <div className='picture'>
             <img src='me1.jpg' alt='this_is_my_picture' />

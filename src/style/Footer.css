@@ -3,6 +3,11 @@
     text-align: center;
 }
 .footer svg{
-    width: 30px;
-    margin: auto 10px;
+    width: 22px;
+    margin: 0 10px;
+   
+}
+h2{
+    color: rgb(25, 25, 85);
+padding:10px ;
 }

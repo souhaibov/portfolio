@@ -68,7 +68,7 @@ font-size: 18px;
 .formulaire h2{
     font-size: 34px;
     text-align: center;
-    color: rgb(128, 86, 31);
+    color: rgb(25, 25, 85);
 }
 
 .all_contact{
@@ -79,8 +79,8 @@ font-size: 18px;
     margin: auto 5vw;
 }
 #contact-form h1{
-    font-size: 46px;
-    color: rgb(45, 30, 120);
+    font-size: 36px;
+    color: rgb(25, 25, 85);
     text-align: center;
     /* text-shadow: 1px 1px #e1a026; */
 }

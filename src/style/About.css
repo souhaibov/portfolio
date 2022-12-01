@@ -7,21 +7,50 @@
 .my_picture{
 width: 40%;
 height: 100vh;
+
 /* border-style: dashed; */
 }
-
+.pic{
+    /* border-style: dashed; */
+    width: 25vw;
+    height: 60vh;
+    position: relative;
+}
+.pic::before,
+.pic::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #ff0000, #00f0f0, #ffbb00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  width: 100%;
+  height: 100%;
+  transform: scale(1.02);
+  z-index: -1;
+  background-size: 500%;
+  animation: animate 20s infinite;
+  -webkit-animation: animate 20s infinite;
+}
+.pic::after {
+    filter: blur(20px);
+  }
+@keyframes animate {
+    0% { background-position: 0 0; }
+    50% { background-position: 300% 0; }
+    100% { background-position: 0 0; }
+  }
 .my_picture img{
  
-    margin: 2em 12% 0 0;
-    width: 80%;
-    height: 65%;
-    opacity: 90%;
-    border-radius: 15%;
-    /* border-style: dashed; */
-    -webkit-border-radius: 15%;
+    /* margin: 2em 12% 0 0; */
+    width: 100%;
+    height: 100%;
+    /* opacity: 90%; */
+    /* border-radius: 15%; */
+   
+    /* -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
     -ms-border-radius: 15%;
-    -o-border-radius: 15%;
+    -o-border-radius: 15%; */
 }
 .my_description{
     padding: 2em 2em;
@@ -31,8 +60,8 @@ height: 100vh;
 }
 
 #about h1{
-    font-size: 46px;
-    color: rgb(45, 30, 120);
+    font-size: 36px;
+    color: rgb(25, 25, 85);
     text-align: center;
     /* text-shadow: 1px 1px #e1a026; */
 }

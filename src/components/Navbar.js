@@ -22,28 +22,18 @@ const Navbar = () => {
           </a>
             </li>
             <li>
-            <a href="#Skills">
+            <a href="#skills">
                 Skills
                 </a>
             </li>
+            
             <li>
-            <a href="#Education">
-                Education
-                </a>
-            </li>
-           
-            <li>
-            <a href="#Experience">
-                Experience
-                </a>
-            </li>
-            <li>
-            <a href="#Hobbies">
+            <a href="#my_hobbies">
                 Hobbies
                 </a>
             </li>
              <li>
-             <a href="#Contact">
+             <a href="#contact-form">
                 Contact
                 </a>
             </li>

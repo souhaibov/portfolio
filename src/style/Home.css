@@ -32,7 +32,10 @@ margin: 20px 50px 20px 60px;
 }
 .picture{
     width: 50%;
+    /* border-style: dotted; */
+    /* position: relative; */
 }
+
 .picture img{
     margin-left: 100px;
     padding-top: 60px;
@@ -42,6 +45,7 @@ margin: 20px 50px 20px 60px;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    
 }
 h1{
     text-align: left;

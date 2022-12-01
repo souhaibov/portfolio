@@ -1,4 +1,4 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 import "../style/Skills.css"
@@ -8,7 +8,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon style={{width:"50px",color:"RoyalBlue4"}}/>
+          {/* <ChipIcon style={{width:"50px",color:"rgb(186, 170, 149)"}}/> */}
          <br/>
           <h1 >
             Skills & Technologies
