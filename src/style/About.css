@@ -6,14 +6,14 @@
 
 .my_picture{
 width: 40%;
-height: 100vh;
+height: 100%;
 
 /* border-style: dashed; */
 }
 .pic{
     /* border-style: dashed; */
     width: 25vw;
-    height: 60vh;
+    height: 70vh;
     position: relative;
 }
 .pic::before,

@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Skills from './components/Skills';
 import Hobbies from './components/Hobbies';
 import Footer from './components/Footer';
+import  ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        <Hobbies/>
        <Contact/>
        <Footer/>
+       <ScrollUpButton style={{width: 30, height:35}} ToggledStyle={{right: 50}}/>
       </main>
     </div>
   );

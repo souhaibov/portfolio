@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='souhaib'>
                 Souhaib
         </div>
-        <div>
+        <div className='nav'>
             <ul>
             
         

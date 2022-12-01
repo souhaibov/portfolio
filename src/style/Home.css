@@ -5,8 +5,8 @@
 .left{
     /* border-style: dashed; */
     width: 10%;
-    height: 100vh;
-    
+    height: 100%;
+
 }
 .left ul li {
 width: 25px;
@@ -72,4 +72,15 @@ button{
     -ms-border-radius: 30%;
     -o-border-radius: 30%;
 }
-
+button:hover {
+    transition: 1s ease-in-out;
+    background: #e69c3c;
+  }
+  
+ 
+  
+  button span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
