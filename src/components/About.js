@@ -30,16 +30,24 @@ const About = () => {
 <p>Graduated from Higher Faculties of Studies in science and information technologies of communication. And recently, finished my training in FullStack JavaScript development at GO-MY-CODE . I'm seeking for a challenging position in a reputable organization to prove myself and improve my learning, skills and knowledge.</p>
      <br/>
      <div className='download'>
+      
       <img src="diplome.jpg" alt="mon diplome" />     
-         <div className='button_css'>
-         <button> Download Certification </button>
-         <br/>
-         <button> Download CV </button> 
+         <div className='button_css'><br/>
+         <h4>Download</h4>
+         <div className='down_button'>
+          <a href='Souhaib Salem certification.pdf' download='Souhaib Salem certification.pdf'>
+         <button>Academic Report </button>
+         </a>
+        
+         <a href='CV-Salem-Souhaib.pdf' download='CV-Salem-Souhaib.pdf'>
+         <button>Curriculum Vitae </button> 
+         </a>
+      </div>
       </div> 
       </div>
            </div>
         </div>
-   
+
     </section>
   )
 }

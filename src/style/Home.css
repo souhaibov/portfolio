@@ -13,6 +13,9 @@ width: 25px;
 margin: 20px 50px 20px 60px;
 
 }
+.left a:hover {
+    background: #0a1318;
+  }
 .right{
     display: flex;
     justify-content: space-between;

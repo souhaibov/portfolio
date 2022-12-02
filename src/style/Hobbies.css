@@ -43,6 +43,7 @@ margin: 10px;
     height: 100%;
 }
 .chess_skill img{
+    position: relative;
     width: 75%;
     height: 40%;
     /* padding: 20px; */

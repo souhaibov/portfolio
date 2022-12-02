@@ -14,7 +14,7 @@ height: 100%;
     /* border-style: dashed; */
     width: 25vw;
     height: 70vh;
-    position: relative;
+    position: sticky;
 }
 .pic::before,
 .pic::after {
@@ -22,7 +22,7 @@ height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, #ff0000, #00f0f0, #ffbb00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  background: linear-gradient(45deg, #ea9595, #00f0f0, #ffbb00, #86a7d2, #ea9595, #00f0f0, #00ff00, #86a7d2, #ea9595);
   width: 100%;
   height: 100%;
   transform: scale(1.02);
@@ -40,7 +40,7 @@ height: 100%;
     100% { background-position: 0 0; }
   }
 .my_picture img{
- 
+ position: relative;
     /* margin: 2em 12% 0 0; */
     width: 100%;
     height: 100%;
@@ -78,7 +78,7 @@ height: 100%;
 
 }
 .my_description img{
-    opacity: 80%;
+    opacity: 90%;
     width: 50%;
     height: 35%;
 }
@@ -92,11 +92,25 @@ height: 100%;
 }
 .download .button_css{
     /* border-style:dashed ; */
-    margin: 70px 20px;
-   
-    display: flex;
-  flex-direction: column;
+    margin: 50px 0px;
+   /* padding: 10px; */
 }
+.download .button_css .down_button{
+  padding: 10px;
+  /* margin: 10px; */
+    display: flex;
+  justify-content: stretch;
+}
+.download .button_css .down_button button{
+  margin:10px 10px;
+}
+.download .button_css h4{
+text-align: center;
+font-size: 24px;
+color: rgb(25, 25, 85);
+}
+
+
 @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;

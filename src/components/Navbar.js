@@ -4,9 +4,15 @@ import "../style/Navbar.css"
 const Navbar = () => {
   return (
     <div className='navbar'>
+        {/* <div className='dark_mode'>
+        <label>
+            <input type="checkbox"></input>
+            <span className="check"></span>
+        </label> */}
         <div className='souhaib'>
                 Souhaib
         </div>
+        {/* </div> */}
         <div className='nav'>
             <ul>
             

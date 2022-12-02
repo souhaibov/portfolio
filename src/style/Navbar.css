@@ -1,12 +1,14 @@
 .navbar{  
-
-position: sticky;
+  position: sticky;
+  bottom: 0;
+  right: 0;
 top: 0;
 background: rgb(230,165,75);
 height: 70px;
 width: 100%;
 display: flex;
 justify-content: space-between;
+
 }
 .souhaib{
     font-size: 18px;
@@ -64,3 +66,30 @@ justify-content: space-between;
   .navbar ul li  a:hover::before{
     width: 100%;
   }
+/* .dark_mode {
+  border-style: dashed;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  padding: 0 100px;
+} */
+/* input [type="checkbox"]
+{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.check{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+} */
+
+
+
+
+
+
+
