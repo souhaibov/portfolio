@@ -5,7 +5,7 @@ import "../style/Skills.css"
 
 export default function Skills() {
   return (
-    <section id="skills">
+    <section id="skills"><br/><br/>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           {/* <ChipIcon style={{width:"50px",color:"rgb(186, 170, 149)"}}/> */}

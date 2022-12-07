@@ -82,7 +82,11 @@ height: 100%;
     width: 50%;
     height: 35%;
 }
-
+.my_description img:hover{
+  
+  width: 60%;
+  height: 55%;
+}
 .download{
     /* border-style: dotted; */
     display: flex;

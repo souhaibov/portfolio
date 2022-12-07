@@ -17,9 +17,9 @@
 
 .skills{
     /* border-style: dotted; */
-    width: 300px;
+    width: 290px;
     height: 45px;
-    margin: 8px 25px;
+    margin: 15px 25px;
     padding: 5px;
     background: linear-gradient(orange, LightSkyBlue);
     display: flex;
@@ -29,6 +29,10 @@
     -moz-border-radius:20% ;
     -ms-border-radius:20% ;
     -o-border-radius:20% ;
+}
+.skills:hover{
+    width: 300px;
+    height: 50px;
 }
 .skills_tech{
     /* border-style: dashed; */
